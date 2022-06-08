@@ -9,10 +9,8 @@
 
 #include "enemy.h"
 
-
-
-
 Game::Game(QWidget *parent){
+
     // cria a cena
     scene = new QGraphicsScene();
     // faz a cena ter 800 por 600

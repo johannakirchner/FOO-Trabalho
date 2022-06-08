@@ -24,6 +24,7 @@ Enemy::Enemy()
     connect(timer,SIGNAL(timeout()),this,SLOT(move()));
 
     // a cada 50ms o metodo timeout da sua classe vai ser chamado
+    // quando o timeout é chamado chama o move()
     timer->start(50);
 
 }

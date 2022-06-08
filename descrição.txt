@@ -2,7 +2,7 @@ O jogo copia o fundamental de Space Invaders. O jogador é o retângulo maior qu
 pelas setinhas do teclado e os tiros são lançados ao clicar dentro do jogador com o botão esquerdo.
 Por padrão, o jogador começa com 3 de health e 0 score. Ao acertar os tiros nos inimigos (quadrados
 menores) o score aumenta 1 ponto, e quando um inimigo passa do limite inferior da tela é descontado
-1 ponto de vida. O jogo nunca acaba, se a vida passar de zero vai para os números negativos apenas.
+1 ponto de vida. O jogo nunca acaba, se a vida passar de zero vai para os números negativos.
 
 Para salvar o estado do programa atual (health e score atuais), é necessário apertar o botão direito
 do mouse (também clicando dentro do jogador), uma warning box aparece notificando "Estado Salvo." e
@@ -13,5 +13,4 @@ jogador), se não existir um arquivo ou o arquivo está vazio uma warning box no
 "Não existem estados salvos. Salve um primeiro.". Caso contrário, o estado salvo no arquivo é carregado
 e uma warning box notificando "Estado carregado.". O arquivo é criado no mesmo lugar do executável, no 
 meu caso é uma pasta em documentos com o nome de "pontuacao.txt".
-
 
